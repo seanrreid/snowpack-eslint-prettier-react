@@ -10,11 +10,27 @@ describe('App', () => {
         class="App"
       >
         <h1>
-          Hello World
+          Snowpack React
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, similique.
+          A starter template for using React, Prettier, ESLint, Jest/RTL compiled using Snowpack. Simple and easy.
         </p>
+        <div
+          class="button-row"
+        >
+          <button
+            class="button button-tertiary"
+            type="button"
+          >
+            Cancel
+          </button>
+          <button
+            class="button button-primary"
+            type="button"
+          >
+            Let's Go!
+          </button>
+        </div>
       </section>
     `)
   })
