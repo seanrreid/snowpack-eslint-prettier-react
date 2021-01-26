@@ -1,6 +1,6 @@
 import React, { ButtonHTMLAttributes, PropsWithChildren } from 'react'
 
-import './Button.css'
+import './Button.scss'
 
 export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> &
   PropsWithChildren<{
