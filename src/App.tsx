@@ -12,7 +12,8 @@ const App = () => {
     <section className="App">
       <h1>Snowpack React</h1>
       <p>
-        A starter template for using Snowpack with React, TypeScript, Prettier, ESLint, Jest, and testing library.
+        A starter template with React, TypeScript, Prettier, ESLint, Jest, and Testing Library all preconfigured.
+        Snowpack runs the build... no Webpack or Create React App.
         Simple and easy.
       </p>
       <div className="button-row">
