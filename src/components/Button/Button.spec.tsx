@@ -24,4 +24,9 @@ describe('The Button component', () => {
     const btn = screen.getByRole('button')
     expect(btn).toHaveClass('button-secondary')
   })
+  it('should have tertiary class', () => {
+    render(<Button as="tertiary">Hello</Button>)
+    const btn = screen.getByRole('button')
+    expect(btn).toHaveClass('button-tertiary')
+  })
 })

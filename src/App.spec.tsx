@@ -13,7 +13,7 @@ describe('App', () => {
           Snowpack React
         </h1>
         <p>
-          A starter template for using React, Prettier, ESLint, Jest/RTL compiled using Snowpack. Simple and easy.
+          A starter template for using Snowpack with React, TypeScript, Prettier, ESLint, Jest, and testing library. Simple and easy.
         </p>
         <div
           class="button-row"
