@@ -7,7 +7,8 @@
     "start": "snowpack dev --polyfill-node",
     "build": "snowpack build --polyfill-node",
     "lint": "eslint './src/**.*.jsx' --fix",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "pretty": "npx prettier './src/**/*.*' --write"
   },
   "keywords": [],
   "author": "Gary Storey",
@@ -25,6 +26,9 @@
     "snowpack": "^3.0.11"
   },
   "dependencies": {
+    "@snowpack/plugin-typescript": "^1.2.1",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
